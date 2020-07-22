@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #FBDDDD;
+}
+h1{
+  font-size: 75% p;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding:30px;
+  letter-spacing: 2px;
+}
+.menu1, .menu2, .menu3{
+  position: relative;
+}
+section{
+  margin: 40px;
+}
+.box1{
+  border: 2px solid black;
+}
+p{
+  float: left;
+}
+#para1 {
+  background-color:#B9ADC0;
+  position: relative;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  height: 125px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 40px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right:10px;
+  padding-bottom: 10px;
+}
+#para2{
+  position: relative;
+  background-color:#B9ADC0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  height: 125px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 40px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right:10px;
+  padding-bottom: 10px;
+}
+
+#para3{
+  position: relative;
+  background-color:#B9ADC0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  height: 125px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 40px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right:10px;
+  padding-bottom: 10px;
+}
+#section1{
+  background-color: #AF6FD3;
+  position: absolute;
+  top:0px;
+  left:197px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 40px;
+  border: 1px solid black;
+  padding: 3px;
+}
+#section2{
+  background-color: #4DE5A8;
+  position: absolute;
+  top:0px;
+  left:572px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 40px;
+  border: 1px solid black;
+  padding: 3px;
+}
+#section3{
+  background-color: #B462C4;
+  position: absolute;
+  top:0px;
+  left:1005px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 40px;
+  border: 1px solid black;
+  padding: 3px;
+  overflow: auto;
+}
+
+@media (min-width:992px){
+  p{
+    float: left;
+  }
+}
+@media(min-width:768px) and (max-width:991px) {
+  #para3 {
+    clear: right;
+    width: 680px;
+  }
+}
+@media(max-width:768px){
+  p{
+    clear: left;
+  }
+}
