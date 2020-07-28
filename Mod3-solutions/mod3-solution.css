@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #C296CA;
+}
+
+@media (max-width: 576px) {
+  .item-one{
+    width:50vw;
+  }
+}
+#header-nav{
+  background-color: #585459;
+  border-radius: 0px;
+  border: 0;
+}
+
+.navbar-brand h1{
+  font-family:serif;
+  color: #8E60A3;
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+.page-header{
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight:bold;
+}
+.item-onee{
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.item-one{
+  background-color: white;
+  font-size: 1em;
+}
